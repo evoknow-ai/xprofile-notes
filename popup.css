@@ -1,0 +1,16 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+body { background:#fff; color:#0f1419; margin:0; width:390px; }
+header { align-items:center; display:flex; justify-content:space-between; padding:16px 16px 10px; }
+h1 { font-size:19px; margin:0; } header p { color:#536471; font-size:12px; margin:3px 0 0; }
+#add { background:#0f1419; border:0; border-radius:50%; color:white; cursor:pointer; font-size:23px; height:34px; line-height:1; width:34px; }
+#search { border:1px solid #cfd9de; border-radius:999px; box-sizing:border-box; margin:0 14px 10px; outline:0; padding:10px 14px; width:calc(100% - 28px); }
+#search:focus { border-color:#1d9bf0; }
+main { max-height:420px; overflow:auto; }
+.card { border-top:1px solid #eff3f4; cursor:pointer; padding:12px 16px; }
+.card:hover { background:#f7f9f9; }.who { align-items:center; display:flex; gap:7px; }.who a { color:#1d9bf0; font-weight:700; text-decoration:none; }.who a:hover { text-decoration:underline; }.when { color:#536471; font-size:11px; margin-left:auto; }
+.text { font-size:13px; line-height:1.4; margin-top:5px; white-space:pre-wrap; }.tag { background:#e8f5fd; border-radius:999px; color:#1676b5; display:inline-block; font-size:11px; margin:7px 4px 0 0; padding:3px 7px; }
+#empty { color:#536471; padding:45px 16px; text-align:center; }
+footer { border-top:1px solid #eff3f4; display:flex; gap:8px; justify-content:center; padding:10px; }
+footer button, footer label, footer a { background:transparent; border:0; color:#536471; cursor:pointer; font:12px system-ui; padding:4px; text-decoration:none; } footer button:hover, footer label:hover, footer a:hover { color:#1d9bf0; } footer input { display:none; }
+dialog { border:0; border-radius:16px; box-shadow:0 15px 50px #0005; padding:18px; width:330px; }dialog::backdrop{background:#0007}dialog h2{font-size:18px;margin:0 0 12px}dialog label{display:block;font-size:12px;font-weight:700;margin:9px 0}dialog input,dialog textarea{border:1px solid #cfd9de;border-radius:8px;box-sizing:border-box;font:13px system-ui;margin-top:4px;padding:8px;width:100%}dialog textarea{min-height:110px;resize:vertical}.actions{display:flex;gap:7px;justify-content:flex-end;margin-top:14px}.actions button{border:0;border-radius:999px;cursor:pointer;font-weight:700;padding:8px 13px}.actions button[value="default"]{background:#0f1419;color:white}#remove{background:transparent;color:#f4212e;margin-right:auto}
+@media(prefers-color-scheme:dark){body,dialog{background:#000;color:#e7e9ea}.card{border-color:#2f3336}.card:hover{background:#16181c}footer{border-color:#2f3336}#search,dialog input,dialog textarea{background:#000;color:#e7e9ea}.tag{background:#102d40}.actions button[value="default"],#add{background:#eff3f4;color:#0f1419}}
