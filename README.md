@@ -4,6 +4,16 @@
 
 A private, local-first Chrome extension for keeping personal notes about people you encounter on X. Nothing is sent to a server, and no account is required.
 
+## See it in action
+
+### Add a private note from any X profile
+
+![X Profile Notes button displayed on an X profile](docs/screenshots/profile-note-button.jpg)
+
+### Search and manage all saved profile notes
+
+![X Profile Notes searchable local notes dashboard](docs/screenshots/notes-dashboard.png)
+
 ## Features
 
 - Add notes directly from X profile pages.
