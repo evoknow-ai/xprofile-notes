@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>X Profile Notes</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><div><h1>X Profile Notes</h1><p id="count">Private and stored locally</p></div><button id="add" title="Add note">+</button></header>
+  <input id="search" type="search" placeholder="Search people, notes, or tags" autofocus>
+  <main id="list"></main>
+  <div id="empty" hidden>No notes found.</div>
+  <footer><button id="export">Export backup</button><label>Import backup<input id="import" type="file" accept="application/json"></label><a href="credits.html" target="_blank">Credits</a></footer>
+  <dialog id="editor">
+    <form method="dialog">
+      <h2 id="editorTitle">Profile note</h2>
+      <label>X handle<input id="handle" required pattern="[A-Za-z0-9_]{1,15}" placeholder="username"></label>
+      <label>Note<textarea id="note" maxlength="5000"></textarea></label>
+      <label>Tags<input id="tags" placeholder="AI, investor, met on Space"></label>
+      <div class="actions"><button id="remove" type="button">Delete</button><button value="cancel">Cancel</button><button id="save" value="default">Save</button></div>
+    </form>
+  </dialog>
+  <script src="popup.js"></script>
+</body>
+</html>
