@@ -2,6 +2,13 @@
 
 All notable changes to X Profile Notes are documented here.
 
+## 1.2.0 · 2026-08-18
+
+- Added a complete Chrome Web Store submission package.
+- Added production icons for Chrome and the Web Store.
+- Added promotional graphics, compliant screenshots, listing copy, privacy policy, permission justifications, and reviewer instructions.
+- Updated the extension package for public store distribution.
+
 ## 1.1.2 · 2026-08-11
 
 - Published the complete project to GitHub.

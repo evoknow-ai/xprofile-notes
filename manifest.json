@@ -1,13 +1,25 @@
 {
   "manifest_version": 3,
   "name": "X Profile Notes",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Private, local notes for people you encounter on X.",
   "permissions": ["storage"],
   "host_permissions": ["https://x.com/*", "https://twitter.com/*"],
   "action": {
     "default_title": "X Profile Notes",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "content_scripts": [
     {

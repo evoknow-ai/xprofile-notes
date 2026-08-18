@@ -63,6 +63,8 @@ Built for the desktop versions of `x.com` and `twitter.com`. X changes its inter
 ## Project
 
 - [Changelog](CHANGELOG.md)
+- [Privacy Policy](PRIVACY.md)
+- [Chrome Web Store submission guide](store/CHROME-WEB-STORE-SUBMISSION.md)
 - [MIT License](LICENSE)
 - [Mohammed Kabir on X](https://x.com/mjkabir)
 - [Eat. Sleep. AI.](https://eatsleepai.us)
